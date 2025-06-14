@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const Products = () => {
-  //const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
     fetch('https://dummyjson.com/products')
